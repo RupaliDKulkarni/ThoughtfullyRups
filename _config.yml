@@ -1,0 +1,18 @@
+# ---- Your site settings (change these anytime) ----
+title: "Little Things Worth Knowing by Rups"
+tagline: "Notes, ideas and useful finds, written down to share."
+author: "Rups"
+description: "A personal blog by Rupa: notes, ideas and useful things."
+
+# Leave this empty if your GitHub repository is named <your-username>.github.io
+# If it is named something else (for example "blog"), put "/blog" here.
+baseurl: "/ThoughtfullyRups"
+
+# ---- You don't need to change anything below ----
+permalink: /posts/:title/
+markdown: kramdown
+timezone: Asia/Kolkata
+exclude: [README.md, HOW-TO-POST.md]
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: post }

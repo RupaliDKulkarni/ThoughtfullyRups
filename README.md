@@ -6,7 +6,7 @@ The site is built with [Jekyll](https://jekyllrb.com/) and published with GitHub
 
 ## What's here
 
-The site source is currently packaged in `rupa-blog.zip`. Inside it:
+The site files live at the root of this repository (the original upload is also kept in `rupa-blog.zip`):
 
 | Path | What it does |
 |---|---|
@@ -22,12 +22,8 @@ The site source is currently packaged in `rupa-blog.zip`. Inside it:
 
 ## Publishing the site
 
-GitHub Pages can't build the site from a zip file, so it needs to be unpacked first:
-
-1. Extract `rupa-blog.zip` and move everything **inside** the `rupa-blog` folder to the root of this repository (skip the `.jekyll-cache` folder; it's a build cache).
-2. Commit and push to `main`.
-3. In **Settings → Pages**, choose **Deploy from a branch**, branch **main**, folder **/ (root)**.
-4. After a minute or two the site will be live at
+1. In **Settings → Pages**, choose **Deploy from a branch**, branch **main**, folder **/ (root)**.
+2. After a minute or two the site will be live at
    **https://rupalidkulkarni.github.io/ThoughtfullyRups/**
 
 ## Writing a post
